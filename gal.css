@@ -1,0 +1,23 @@
+h1 {
+  color: #333;
+  font-style: italic;
+  text-align: center;
+  background-color: lavender;
+}
+
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.row img {
+  width: 200px;
+  margin-right: 10px;
+}

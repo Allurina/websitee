@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Page</title>
+  <link rel="stylesheet" type="text/css" href="con.css">
+  <link rel="stylesheet" type="text/css" href="nav.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="bio.html">Bio</a></li>
+      <li><a href="qual.html">Qualification</a></li>
+      <li><a href="hob.html">Hobbies</a></li>
+      <li><a href="gal.html">Gallery</a></li>
+      <li><a href="con.html">Contact</a></li>
+    </ul>
+  </nav>
+  <h1>Contact Page</h1>
+  <div class="contact-info">
+    <p>Email: allurinaanna27@gmail.com</p>
+    <p>Phone: +91 7349360815</p>
+    <p>Address: Fredirene Villa, Tallur -576230<br>Kundapur
+    </p>
+  </div>
+  <div class="contact-form">
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="thankYouMessage" class="hidden">Thank you for contacting us!</p>
+  </div>
+</body>
+</html>

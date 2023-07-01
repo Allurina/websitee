@@ -1,0 +1,51 @@
+.bio {
+    text-align: center;
+    background-color: beige;
+  }
+  
+  h1 {
+    color:black;
+    text-align: center;
+    background-color: lavender;
+    font-style: italic;
+  }
+  h3{
+    color: black;
+    text-align: center;
+    background-color: lavender;
+    font-style: italic;
+  }
+  
+  img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h2 {
+    color: black;
+    text-align: center;
+    background-color:beige;
+    font-style: italic;
+  }
+  h4{
+    color: black;
+    text-align: center;
+    background-color:beige;
+    font-style: normal;
+    font-size: medium;
+    font-weight: 100;
+  }
+  h5{
+    color: black;
+    text-align: center;
+    background-color:beige;
+    font-style: normal;
+    font-size: medium;
+    font-weight: 100;
+  }
+  

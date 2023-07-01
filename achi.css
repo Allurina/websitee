@@ -1,0 +1,14 @@
+h1 {
+    color: #333;
+  }
+  
+  .achievements {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .achievements li {
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
